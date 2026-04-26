@@ -11,37 +11,37 @@ const projects = [
     title: "NOVA Assist AI",
     category: "Multi-agent AI backend",
     tools: "FastAPI, Gemini, SQLAlchemy, React, Docker",
-    image: "/images/placeholder.webp",
+    image: "images/placeholder.webp",
   },
   {
     title: "LinkedIn Scraper",
     category: "Data acquisition + AI drafts",
     tools: "Spring Boot, React, MySQL, Apify, Gemini, Docker Compose",
-    image: "/images/placeholder.webp",
+    image: "images/placeholder.webp",
   },
   {
     title: "Email Summarizer",
     category: "AI desktop app foundation",
     tools: "React, Vite, Electron, ESLint",
-    image: "/images/placeholder.webp",
+    image: "images/placeholder.webp",
   },
   {
     title: "Sales Insights Dashboard",
     category: "Analytics engineering",
     tools: "SQL, PostgreSQL, Power BI, Tableau",
-    image: "/images/placeholder.webp",
+    image: "images/placeholder.webp",
   },
   {
     title: "Power BI Sales Analysis",
     category: "Business intelligence",
     tools: "SQL modeling, Power Query, KPI dashboards",
-    image: "/images/placeholder.webp",
+    image: "images/placeholder.webp",
   },
   {
     title: "Bhanu.dev",
     category: "Interactive portfolio",
     tools: "React, TypeScript, GSAP, Three.js, Vite",
-    image: "/images/placeholder.webp",
+    image: "images/placeholder.webp",
   },
 ];
 
@@ -106,7 +106,10 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
               </div>
-              <WorkImage image={project.image} alt={project.title} />
+              <WorkImage
+                image={`${import.meta.env.BASE_URL}${project.image}`}
+                alt={project.title}
+              />
             </div>
           ))}
         </div>
