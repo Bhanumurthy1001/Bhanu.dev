@@ -9,6 +9,7 @@ const Loading = ({ percent }: { percent: number }) => {
   const [loaded, setLoaded] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const [clicked, setClicked] = useState(false);
+  const homeHref = `${import.meta.env.BASE_URL}#`;
 
   if (percent >= 100) {
     setTimeout(() => {
@@ -45,7 +46,7 @@ const Loading = ({ percent }: { percent: number }) => {
   return (
     <>
       <div className="loading-header">
-        <a href="/#" className="loader-title" data-cursor="disable">
+        <a href={homeHref} className="loader-title" data-cursor="disable">
           Bhanu.dev
         </a>
         <div className={`loaderGame ${clicked && "loader-out"}`}>
