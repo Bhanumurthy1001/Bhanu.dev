@@ -43,7 +43,7 @@ npm run build
 
 ## Deployment Note
 
-The project includes `CNAME` for `bhanu.dev`. Before deploying, confirm repository settings and GitHub Pages configuration point to the correct branch and build output.
+This repository deploys through GitHub Actions. In the repository settings, GitHub Pages should use **Source: GitHub Actions**.
 
 ## License
 
