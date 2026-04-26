@@ -5,7 +5,7 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
+          My work <span>&</span>
           <br /> experience
         </h2>
         <div className="career-info">
@@ -15,43 +15,43 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Senior Data / Performance Engineer</h4>
+                <h5>KUBE IT</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Built high-throughput data platforms using Python, SQL, Azure
+              Data Factory, Databricks, Docker, Kubernetes, and observability
+              tooling with focus on latency, throughput, and reliability.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Senior Data Engineer</h4>
+                <h5>Oportun</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Developed AWS-based data pipelines, streaming workflows, Redshift
+              and Snowflake models, validation frameworks, and production
+              monitoring for high-volume financial data systems.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Data Engineer</h4>
+                <h5>TruWeather Solutions</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2022</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Delivered GCP data workflows with Dataflow, BigQuery, GCS,
+              Pub/Sub, Cloud Composer, and Vertex AI for aviation and weather
+              datasets with cost and performance optimization.
             </p>
           </div>
         </div>

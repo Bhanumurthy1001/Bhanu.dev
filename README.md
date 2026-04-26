@@ -1,15 +1,49 @@
-# My Portfolio Wesbite - Overview 🚀
+# Bhanu.dev Portfolio
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+Personal portfolio for Bhanu Allada, focused on data infrastructure, AI engineering, backend systems, cloud automation, and production-ready project work.
 
-## Instructions 🛠️
+## Highlights
 
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
+- Interactive React and TypeScript portfolio
+- GSAP scroll animation and Three.js character scene
+- Project section covering AI assistants, scraping/data acquisition, dashboards, and desktop app foundations
+- Public-safe engineering profile focused on Python, GCP, Docker, Kubernetes, Terraform, FastAPI, Spring Boot, SQL, and AI workflows
 
-**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
+## Tech Stack
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+- React
+- TypeScript
+- Vite
+- GSAP
+- Three.js
+- React Three Fiber
+- CSS
+
+## Featured Work
+
+- NOVA Assist AI - FastAPI, Gemini, SQLAlchemy, React, Docker
+- LinkedIn Post Scraper & AI Comment Assistant - Spring Boot, React, MySQL, Apify, Gemini, Docker Compose
+- Email Summarizer Desktop App - React, Vite, Electron
+- Sales Insights Dashboard - SQL, PostgreSQL, Power BI, Tableau
+- Power BI Sales Analysis - SQL modeling, Power Query, KPI dashboards
+- Bhanu.dev - React, TypeScript, GSAP, Three.js
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Deployment Note
+
+The project includes `CNAME` for `bhanu.dev`. Before deploying, confirm repository settings and GitHub Pages configuration point to the correct branch and build output.
 
 ## License
 

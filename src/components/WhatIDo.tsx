@@ -87,24 +87,25 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>BUILD</h3>
+              <h4>Data and AI infrastructure</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I build ingestion pipelines, backend APIs, and AI workflows
+                that move data from external sources into reliable products and
+                model-ready systems.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">FastAPI</div>
+                <div className="what-tags">Java</div>
+                <div className="what-tags">Spring Boot</div>
                 <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">BigQuery</div>
+                <div className="what-tags">Pub/Sub</div>
+                <div className="what-tags">Spark</div>
+                <div className="what-tags">Airflow</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +129,24 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>OPERATE</h3>
+              <h4>Cloud, automation, and reliability</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I containerize services, automate infrastructure, tune
+                performance, and keep systems observable, secure, and ready for
+                changing production workloads.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">GCP</div>
+                <div className="what-tags">AWS</div>
+                <div className="what-tags">Azure</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Kubernetes</div>
+                <div className="what-tags">Terraform</div>
+                <div className="what-tags">GitHub Actions</div>
+                <div className="what-tags">Prometheus</div>
+                <div className="what-tags">Grafana</div>
               </div>
               <div className="what-arrow"></div>
             </div>
